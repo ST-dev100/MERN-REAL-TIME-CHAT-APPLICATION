@@ -9,7 +9,7 @@ const useGetConversations = () => {
 		const getConversations = async () => {
 			setLoading(true);
 			try {
-				const res = await fetch("http://localhost:8000/api/users",{
+				const res = await fetch("https://mern-real-time-chat-application.onrender.com/api/users",{
                     method:"GET",
                     credentials: 'include',
                 });
