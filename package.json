@@ -2,7 +2,7 @@
 	"name": "MERN-REAL-TIME-CHAT-APPLICATION",
 	"version": "1.0.0",
 	"description": "",
-	"main": "server.js",
+	"main": "Back-End/server.js",
 	"scripts": {
 		"server": "nodemon Back-End/server.js",
 		"start": "node Back-End/server.js",
